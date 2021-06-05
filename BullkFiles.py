@@ -2,7 +2,7 @@ import os
 
 def main():
     i = 0
-    path = "C:/Users/HP/Desktop/studocu/"
+    path = "C:/Users/HP/Desktop/jjjj/"
     for filename in os.listdir(path):
         my_dest = "file" + str(i) + ".pdf"
         my_source = path + filename
@@ -10,5 +10,4 @@ def main():
         os.rename(my_source, my_dest)
         i += 1
 
-if __name__ =='__main__' :
-    main()
+main()
